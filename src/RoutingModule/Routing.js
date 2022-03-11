@@ -31,12 +31,13 @@ export default function MyRouting() {
                 
                 <Route path="/about" element={<About />} />
                 
-       <Route element={<Protected />}>   
-       
+       <Route element={<Protected />}> 
+         
+       <Route path="/adventure" element={<Adventure />} />
       
                
         </Route>
-               <Route path="/adventure" element={<Adventure />} />
+               
                <Route path="/feedback" element={<Feedback />} />
                <Route path="/login" element={<Login />} />
                

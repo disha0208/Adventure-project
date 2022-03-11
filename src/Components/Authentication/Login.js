@@ -40,10 +40,10 @@ function Login() {
         .post("https://node-project-storage.herokuapp.com/postLoginData", values)
         .then((res) => {
           console.log("Axios Res: ", res.data);
-          window.localStorage.setItem("Token", res.data.data.token);
-          window.sessionStorage.setItem("Token", res.data.data.token);
+          window.localStorage.setItem("Token", res.data.token);
+          window.sessionStorage.setItem("Token", res.data.token);
           alert("You have successfully logged in");
-          navigate("/contact-us");
+          navigate("/adventure");
         })
         .catch((err) => {
           console.log("Error in Axios: ", err);
