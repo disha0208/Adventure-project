@@ -1,0 +1,49 @@
+/* .ContactUs { */
+     /* background-image: url('../../../public/images/adventure.jpg');  */
+    /* background-position: center;
+    background-size: fill;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px; */
+    /* align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-left: 30vh;
+  }
+   .contact mb-3 pt-0{
+    align-items: center;
+  /* }  */
+  /* .myform{
+    text-align: center;
+     margin-top: 10vh;
+    
+     border-image-width: 0ch;
+     margin-top:10vh;
+     background-image: url('../../../public/images/maountain-author.jpg'); */ 
+    /* padding-left: 10vh;  */
+  /* } */
+  /* .btn1{
+    font-weight: black;
+  } */
+  .btn1{
+    text-align: center;
+    
+    
+  }
+ .subt{
+   text-align: center;
+   margin-left: 630px;
+   
+ }
+.contact{
+  background-image: url('../../../public/images/adventure-india.jpg');
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
+/* .head{
+  text-decoration: bold;
+} */
+.para{
+  text-align-last: center;
+}

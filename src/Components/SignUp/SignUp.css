@@ -1,0 +1,13 @@
+.signup{
+    text-align: center;
+     background-image:url('../../../public/images/img-8.jpg');  
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    background-color: #fff;
+     font-size: 20px; 
+     width: 100vw;
+     height: 100vh;
+     background-size: cover;
+}
